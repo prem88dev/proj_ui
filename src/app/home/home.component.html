@@ -1,0 +1,21 @@
+<!--div class="dropdown">
+    <mat-spinner *ngIf="projects.length === 0"></mat-spinner>
+    <mat-card *ngFor="let project of projects" style="margin-top:10px;">
+        <mat-card-header>
+            <mat-card-subtitle>{{project._id}}</mat-card-subtitle>
+            <mat-card-title>{{project.esaId}} - {{project.esaDesc}}</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+            <p>{{project.currency}}</p>
+            <p>{{project.billingMode}}</p>
+            <p>{{project.empEsaLink}}</p>
+        </mat-card-content>
+        <button>List Associates</button>
+    </mat-card-->
+    <!--select>
+        <option> --- Select Project --- </option>
+        <option *ngFor="let project of projects" value={{project._id}}>
+            {{project.esaDesc}} ( {{project.esaId}} )
+        </option>
+    </select>
+</div---    >
